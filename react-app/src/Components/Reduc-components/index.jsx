@@ -26,13 +26,14 @@ export const Redux = () => {
         dispatch({type: productActions.DIVIDE, payload: e})
     }
 
+
     return <div>
-        {console.log(tiv)}
         <p>{cash}</p>
         <p>{tiv}</p>
         <button onClick={() => Addclick(10)}>Add</button>
         <button onClick={() => Getclick(5)}>Get</button>
         <button onClick={() => Multiplyclick(2)}>Multiply</button>
         <button onClick={() => Divideclick(2)}>Divide</button>
+
     </div>
 }

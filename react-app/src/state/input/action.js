@@ -1,0 +1,5 @@
+export const inputActions = {
+    GET_FIRSTNAME: "GET_FIRSTNAME",
+    GET_LASTNAME: "GET_LASTNAME",
+    GET_POSITION: "GET_POSITION",
+}
